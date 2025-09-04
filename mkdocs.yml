@@ -1,0 +1,17 @@
+site_name: "Workshop"
+site_description: "Website do workshop – conteúdo em Markdown"
+site_url: ""
+repo_url: ""
+theme:
+  name: mkdocs
+nav:
+  - Sobre o evento: index.md
+  - Programação: programacao.md
+  - Palestrantes: palestrantes.md
+  - Inscrição: inscricao.md
+  - Contato: contato.md
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
